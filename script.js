@@ -9,6 +9,7 @@ const offer6 = document.getElementById('offer6');
 async function fetchOffers() {
     const response = await fetch("https://www.codepassport.dev/api/offers");
     const offers = await response.json();
+    offersList.innerText = "";
     for (let x = 0 ; x < offers.length ; x++) {
         console.log('wesh')
         const newOffer = document.createElement("div");
