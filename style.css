@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 229, 233);
+}
+h1 {
+    display: flex;
+    margin: 0 auto;
+    background-color: lightpink;
+    color: deeppink;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 60%;
+    border: solid 1px deeppink;
+    border-radius: 10px;
+    font-size: 50px;
+}
+#presentation {
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
+}
+#offers-list {
+    /* border: solid 1px black; */
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.offers {
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px;
+    flex: 1 1 30%;
+}
+.offers h2 {
+    display: flex;
+    height: 20%;
+    background-color: rgb(252, 219, 224);
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 1px lightpink;
+}
+.offers p {
+    padding: 5px;
+    text-align: justify;
+}
